@@ -65,6 +65,8 @@ This repository is maintained by Vettabase.
 For questions or commercial support inquiries regarding the containerisation of WarpSQL, please
 contact info@vettabase.com. Currently we do not offer support for WarpSQL itself.
 
-If you find this software useful, please consider contributing WarpSQL.
+
+**If you find this software useful, please consider contributing [WarpSQL](https://warpsql.blog/).**
+
 
 
