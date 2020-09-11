@@ -32,8 +32,9 @@ RUN \
         libssl1.1 \
     && TARBALL=$(ls -t1 | head -1) \
     && tar zxovf $TARBALL \
+    && DIRNAME=$( tar --list -f $TARBALL | head -1 ) \
     && rm $TARBALL \
-    && mv $(ls -t1 | head -1) mysql \
+    && mv $DIRNAME mysql \
     && echo "/usr/local/mysql/lib/plugin" > /etc/ld.so.conf.d/warp.conf \
     &&  ldconfig
 RUN cd /usr/local/mysql \
