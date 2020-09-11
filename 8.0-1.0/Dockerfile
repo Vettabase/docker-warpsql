@@ -36,7 +36,7 @@ RUN \
     && rm $TARBALL \
     && mv $DIRNAME mysql \
     && echo "/usr/local/mysql/lib/plugin" > /etc/ld.so.conf.d/warp.conf \
-    &&  ldconfig
+    && ldconfig
 RUN cd /usr/local/mysql \
     && /usr/local/mysql/bin/mysqld --initialize-insecure
 
