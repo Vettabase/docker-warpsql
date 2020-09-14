@@ -1,4 +1,4 @@
-# vettadock/warpsql Docker image
+# vettadock/warpsql Dockerfiles
 
 Dockerfiles to build Docker images for WarpSQL.
 
