@@ -49,8 +49,7 @@ USER root:root
 LABEL \
     com.vettabase.vendor="Vettabase" \
     maintainer="federico.razzoli@vettabase.com" \
-	com.vettabase.license="GNU GPL 2.0" \
+    com.vettabase.license="GNU GPL 2.0" \
     description="WarpSQL by Justin Swanhart" \
-	com.vettabase.maturity="alpha"
-
+    com.vettabase.maturity="alpha"
 
